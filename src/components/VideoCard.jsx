@@ -37,7 +37,7 @@ boxShadow:"none",borderRadius:0}}
             {snippet?.title.slice(0.60) || demoVideoTitle.slice(0, 60)}
           </Typography>
         </Link>
-        <Link to={snippet?.channelId ? `/video/${snippet?.channelId}` : demoChannelUrl}>
+        <Link to={snippet?.channelId ? `/channel/${snippet?.channelId}` : demoChannelUrl}>
           <Typography
             variant="subtitle1"
             fontWeight="bold"
